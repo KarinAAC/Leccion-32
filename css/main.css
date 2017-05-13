@@ -1,0 +1,40 @@
+body{
+  margin: 0px;
+  background-image: url("../img/Copia de Landscape.jpg");
+  background-repeat: no-repeat;
+  background-size:100% 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+@media (max-width: 2000px){
+  body{
+    margin: 0px;
+    background-image: url("../img/Copia de Landscape.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+     -webkit-transition: width 2s;
+  }
+}
+@media(max-width: 1300px){
+  body{
+    background-image: url("../img/Copia de dawn.png");
+    background-repeat: no-repeat;
+    background-size:100% 100vh;
+     -webkit-transition: width 2s;
+  }
+}
+@media(max-width: 700px){
+  body{
+    background-image: url("../img/Copia de maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100vh;
+     -webkit-transition: width 2s;
+  }
+}

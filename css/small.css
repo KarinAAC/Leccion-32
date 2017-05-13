@@ -1,0 +1,6 @@
+.contenedor-general{
+  width: 100%;
+  height: 635px;
+  display: flex;
+  background: red;
+}
